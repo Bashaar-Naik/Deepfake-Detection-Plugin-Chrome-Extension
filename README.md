@@ -15,9 +15,10 @@ This repository houses the code for building your own deepfake detection plugin 
 Here is how the project files are organized:
 
 ```text
-/Deepfake-Guard-Root
+/DeepFake Detection Plugin
 │
 ├── server_master.py       # 🧠 THE BRAIN: Flask Server & AI Ensemble Logic
+├── requirements.txt       # 📦 Dependencies list for Python
 ├── requirements.txt       # 📦 Dependencies list for Python
 │
 ├── /extension             # 👁️ THE EYES: Chrome Extension Folder
