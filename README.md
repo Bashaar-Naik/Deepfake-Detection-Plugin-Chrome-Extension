@@ -14,7 +14,6 @@ This repository houses the code for building your own deepfake detection plugin 
 ## 📂 Project Structure
 Here is how the project files are organized:
 
-```text
 /DeepFake Detection Plugin
 ├── /deepfake-backend # 🗄️ Backend Server and Model Hosting
 
@@ -51,4 +50,3 @@ pip install -r requirements.txt
 # Start the Server
 python server_master.py '''
 
-**Loading the Extension**
