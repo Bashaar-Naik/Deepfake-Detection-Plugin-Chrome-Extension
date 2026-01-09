@@ -12,6 +12,9 @@ This repository houses the code for building your own deepfake detection plugin 
 - **Visual Dashboard**: Color-coded "Real" vs "Fake" badges with confidence percentages.
 
 **Demonstration**
+
+
+
 ![Picture2](https://github.com/user-attachments/assets/69e1bf88-c9c8-460e-aaa3-735ea0f05f6e)
 ![Picture1](https://github.com/user-attachments/assets/4d8daa2f-9cb9-4c27-b511-ca61af80fdf9)
 
@@ -59,6 +62,6 @@ Here is how the project files are organized:
 │   └── icon.png               #    (Optional) Extension Icon
 │
 └── README.md                  #    This documentation file
-└── Explanation.docx                  #    Explaining the overview of the project and demonstrating the prototype
+└── Explanation.docx           #    Explaining the overview of the project and demonstrating the prototype
 
 
