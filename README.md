@@ -14,19 +14,19 @@ This repository houses the code for building your own deepfake detection plugin 
 ## 📦 Installation
 **1. Backend Setup (The Brain)**
 
-   - **Clone this Repository**: 
-   -**Go to deepfake-backend and run the server_master.py file.**
+   - **Clone this Repository**
+   - **Go to deepfake-backend and run the server_master.py file.**
 
 
 **2. Extension Installation**
 
-  **Open Chrome and navigate to chrome://extensions.**
+  - **Open Chrome and navigate to chrome://extensions.**
   
-  **Enable "Developer mode" (toggle in the top-right corner).**
+  - **Enable "Developer mode" (toggle in the top-right corner).**
   
-  **Click the "Load unpacked" button.**
+  - **Click the "Load unpacked" button.**
   
-  **Select the deepfake-extension folder inside the project directory.**
+  - **Select the deepfake-extension folder inside the project directory.**
 
 
 
