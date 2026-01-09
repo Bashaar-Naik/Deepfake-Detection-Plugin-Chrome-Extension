@@ -49,4 +49,6 @@ cd innovatex-deepfake-guard
 pip install -r requirements.txt
 
 # Start the Server
-python server_master.py
+python server_master.py '''
+
+**Loading the Extension**
