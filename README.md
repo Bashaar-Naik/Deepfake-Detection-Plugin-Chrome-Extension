@@ -13,32 +13,22 @@ This repository houses the code for building your own deepfake detection plugin 
 
 ## 📦 Installation
 1. Backend Setup (The Brain)
-Clone the repository
+   
+  Clone this repository
+  Go to deepfake-backend and run the server_master.py file.
 
-Bash
 
-git clone [https://github.com/yourusername/innovatex-deepfake-guard.git](https://github.com/yourusername/innovatex-deepfake-guard.git)
-cd innovatex-deepfake-guard
-Install dependencies
-
-Bash
-
-pip install -r requirements.txt
-Start the Server
-
-Bash
-
-python server_master.py
 2. Extension Installation
-Open Chrome and navigate to chrome://extensions.
 
-Enable "Developer mode" (toggle in the top-right corner).
-
-Click the "Load unpacked" button.
-
-Select the deepfake-extension folder inside the project directory.
-
-The Deepfake Guard icon (🕵️) should appear in your toolbar.
+  Open Chrome and navigate to chrome://extensions.
+  
+  Enable "Developer mode" (toggle in the top-right corner).
+  
+  Click the "Load unpacked" button.
+  
+  Select the deepfake-extension folder inside the project directory.
+  
+  The Deepfake Guard icon (🕵️) should appear in your toolbar.
 
 
 ## 📂 Project Structure
