@@ -12,23 +12,22 @@ This repository houses the code for building your own deepfake detection plugin 
 - **Visual Dashboard**: Color-coded "Real" vs "Fake" badges with confidence percentages.
 
 ## 📦 Installation
-1. Backend Setup (The Brain)
-   
-  -**Clone this repository
-  -**Go to deepfake-backend and run the server_master.py file.
+**1. Backend Setup (The Brain)**
+
+   - **Clone this Repository**: 
+   -**Go to deepfake-backend and run the server_master.py file.**
 
 
-2. Extension Installation
+**2. Extension Installation**
 
-  Open Chrome and navigate to chrome://extensions.
+  **Open Chrome and navigate to chrome://extensions.**
   
-  Enable "Developer mode" (toggle in the top-right corner).
+  **Enable "Developer mode" (toggle in the top-right corner).**
   
-  Click the "Load unpacked" button.
+  **Click the "Load unpacked" button.**
   
-  Select the deepfake-extension folder inside the project directory.
-  
-  The Deepfake Guard icon (🕵️) should appear in your toolbar.
+  **Select the deepfake-extension folder inside the project directory.**
+
 
 
 ## 📂 Project Structure
