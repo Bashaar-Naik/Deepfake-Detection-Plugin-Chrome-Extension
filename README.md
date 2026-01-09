@@ -11,32 +11,6 @@ This repository houses the code for building your own deepfake detection plugin 
 - **Transparent Breakdown**: Displays individual confidence scores for every model in a neat table.
 - **Visual Dashboard**: Color-coded "Real" vs "Fake" badges with confidence percentages.
 
-## 📂 Project Structure
-Here is how the project files are organized:
-
-```text
-/DeepFake Detection Plugin
-│
-├── /deepfake-backend          # 🗄️ Backend Server and Model Hosting
-│   ├── server_master.py       
-│   ├── server_ensemble.py         
-│   ├── server_effnet.py
-│   ├── server_openaiclip.py
-│   ├── server_resnet.py
-│   ├── server_vit.py
-│   └── server.py
-│
-├── requirements.txt           # 📦 Dependencies list for Python
-│
-├── /deepfake-extension        # 👁️ THE EYES: Chrome Extension Folder
-│   ├── manifest.json          #    Config file (Permissions, Version)
-│   ├── popup.html             #    The User Interface (Buttons, Table)
-│   ├── popup.js               #    Logic (Talking to Python, Updating UI)
-│   ├── content.js             #    Script injected into YouTube to capture video
-│   └── icon.png               #    (Optional) Extension Icon
-│
-└── README.md                  #    This documentation file
-
 ## 📦 Installation
 1. Backend Setup (The Brain)
 Clone the repository
@@ -65,3 +39,31 @@ Click the "Load unpacked" button.
 Select the deepfake-extension folder inside the project directory.
 
 The Deepfake Guard icon (🕵️) should appear in your toolbar.
+
+
+## 📂 Project Structure
+Here is how the project files are organized:
+
+```text
+/DeepFake Detection Plugin
+│
+├── /deepfake-backend          # 🗄️ Backend Server and Model Hosting
+│   ├── server_master.py       
+│   ├── server_ensemble.py         
+│   ├── server_effnet.py
+│   ├── server_openaiclip.py
+│   ├── server_resnet.py
+│   ├── server_vit.py
+│   └── server.py
+│
+├── requirements.txt           # 📦 Dependencies list for Python
+│
+├── /deepfake-extension        # 👁️ THE EYES: Chrome Extension Folder
+│   ├── manifest.json          #    Config file (Permissions, Version)
+│   ├── popup.html             #    The User Interface (Buttons, Table)
+│   ├── popup.js               #    Logic (Talking to Python, Updating UI)
+│   ├── content.js             #    Script injected into YouTube to capture video
+│   └── icon.png               #    (Optional) Extension Icon
+│
+└── README.md                  #    This documentation file
+
