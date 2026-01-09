@@ -16,7 +16,8 @@ Here is how the project files are organized:
 
 ```text
 /DeepFake Detection Plugin
-├── /deepfake-backend #Backend Server and Model Hosting
+├── /deepfake-backend # 🗄️ Backend Server and Model Hosting
+
 │   ├── server_master.py     
 │   ├── server_ensemble.py         
 │   ├── server_effnet.py
@@ -25,9 +26,8 @@ Here is how the project files are organized:
 │   ├── server_vit.py
 │   ├── server.py
 
-
 ├── requirements.txt       # 📦 Dependencies list for Python
-│
+
 ├── /deepfake-extension             # 👁️ THE EYES: Chrome Extension Folder
 │   ├── manifest.json      #    Config file (Permissions, Version)
 │   ├── popup.html         #    The User Interface (Buttons, Table)
