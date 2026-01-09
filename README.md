@@ -60,6 +60,6 @@ Here is how the project files are organized:
 │   └── icon.png               #    (Optional) Extension Icon
 │
 └── README.md                  #    This documentation file
-└── Explanation.docx           #    Explaining the overview of the project and demonstrating the prototype
+└── Explanation.pdf           #    Explaining the overview of the project and demonstrating the prototype
 
 
