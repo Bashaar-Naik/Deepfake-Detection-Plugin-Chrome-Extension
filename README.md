@@ -28,7 +28,7 @@ Here is how the project files are organized:
 
 ├── requirements.txt       # 📦 Dependencies list for Python
 
-├── /deepfake-extension             # 👁️ THE EYES: Chrome Extension Folder
+├── /deepfake-extension    # 👁️ THE EYES: Chrome Extension Folder
 │   ├── manifest.json      #    Config file (Permissions, Version)
 │   ├── popup.html         #    The User Interface (Buttons, Table)
 │   ├── popup.js           #    Logic (Talking to Python, Updating UI)
