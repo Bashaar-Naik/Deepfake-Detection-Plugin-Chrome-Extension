@@ -1,4 +1,4 @@
-# Deepfake-Detection-Plugin-Chrome Extension
+<img width="1280" height="667" alt="image" src="https://github.com/user-attachments/assets/dbc3ac50-6f1d-48b1-9950-508491ff4b3d" /># Deepfake-Detection-Plugin-Chrome Extension
 This repository houses the code for building your own deepfake detection plugin (chrome extension) developed by Bashaar Naik on 9th January, 2025!
 
 # 🕵️ InnovateX: Deepfake Guard (Track 1)
@@ -10,6 +10,11 @@ This repository houses the code for building your own deepfake detection plugin 
 - **Ensemble AI Core**: Combines 4 distinct detection algorithms (CNN, ViT, CLIP, CV).
 - **Transparent Breakdown**: Displays individual confidence scores for every model in a neat table.
 - **Visual Dashboard**: Color-coded "Real" vs "Fake" badges with confidence percentages.
+
+**Demonstration**
+![Picture2](https://github.com/user-attachments/assets/69e1bf88-c9c8-460e-aaa3-735ea0f05f6e)
+![Picture1](https://github.com/user-attachments/assets/4d8daa2f-9cb9-4c27-b511-ca61af80fdf9)
+
 
 ## 📦 Installation
 **1. Backend Setup (The Brain)**
@@ -27,7 +32,6 @@ This repository houses the code for building your own deepfake detection plugin 
   - **Click the "Load unpacked" button.**
   
   - **Select the deepfake-extension folder inside the project directory.**
-
 
 
 ## 📂 Project Structure
@@ -55,4 +59,6 @@ Here is how the project files are organized:
 │   └── icon.png               #    (Optional) Extension Icon
 │
 └── README.md                  #    This documentation file
+└── Explanation.docx                  #    Explaining the overview of the project and demonstrating the prototype
+
 
