@@ -14,8 +14,8 @@ This repository houses the code for building your own deepfake detection plugin 
 ## 📦 Installation
 1. Backend Setup (The Brain)
    
-  Clone this repository
-  Go to deepfake-backend and run the server_master.py file.
+  -**Clone this repository
+  -**Go to deepfake-backend and run the server_master.py file.
 
 
 2. Extension Installation
