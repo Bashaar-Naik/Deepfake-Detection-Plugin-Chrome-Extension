@@ -16,12 +16,19 @@ Here is how the project files are organized:
 
 ```text
 /DeepFake Detection Plugin
-│
-├── server_master.py       # 🧠 THE BRAIN: Flask Server & AI Ensemble Logic
+├── /deepfake-backend #Backend Server and Model Hosting
+│   ├── server_master.py     
+│   ├── server_ensemble.py         
+│   ├── server_effnet.py
+│   ├── server_openaiclip.py
+│   ├── server_resnet.py
+│   ├── server_vit.py
+│   ├── server.py
+
+
 ├── requirements.txt       # 📦 Dependencies list for Python
-├── requirements.txt       # 📦 Dependencies list for Python
 │
-├── /extension             # 👁️ THE EYES: Chrome Extension Folder
+├── /deepfake-extension             # 👁️ THE EYES: Chrome Extension Folder
 │   ├── manifest.json      #    Config file (Permissions, Version)
 │   ├── popup.html         #    The User Interface (Buttons, Table)
 │   ├── popup.js           #    Logic (Talking to Python, Updating UI)
