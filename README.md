@@ -37,7 +37,7 @@ Here is how the project files are organized:
 │
 └── README.md                  #    This documentation file
 
-📦 Installation
+## 📦 Installation
 1. Backend Setup (The Brain)
 Clone the repository
 
