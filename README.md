@@ -40,7 +40,7 @@ Here is how the project files are organized:
 ## 📦 **Installation**
 
 ### 1. Backend Setup (The Brain)
-```bash
+
 # Clone the repository
 git clone [https://github.com/yourusername/innovatex-deepfake-guard.git](https://github.com/yourusername/innovatex-deepfake-guard.git)
 cd innovatex-deepfake-guard
