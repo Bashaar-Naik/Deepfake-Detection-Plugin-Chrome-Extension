@@ -1,4 +1,4 @@
-<img width="1280" height="667" alt="image" src="https://github.com/user-attachments/assets/dbc3ac50-6f1d-48b1-9950-508491ff4b3d" /># Deepfake-Detection-Plugin-Chrome Extension
+**Deepfake-Detection-Plugin-Chrome Extension**
 This repository houses the code for building your own deepfake detection plugin (chrome extension) developed by Bashaar Naik on 9th January, 2025!
 
 # 🕵️ InnovateX: Deepfake Guard (Track 1)
