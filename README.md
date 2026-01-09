@@ -14,39 +14,54 @@ This repository houses the code for building your own deepfake detection plugin 
 ## 📂 Project Structure
 Here is how the project files are organized:
 
+```text
 /DeepFake Detection Plugin
-├── /deepfake-backend # 🗄️ Backend Server and Model Hosting
-
-│   ├── server_master.py     
+│
+├── /deepfake-backend          # 🗄️ Backend Server and Model Hosting
+│   ├── server_master.py       
 │   ├── server_ensemble.py         
 │   ├── server_effnet.py
 │   ├── server_openaiclip.py
 │   ├── server_resnet.py
 │   ├── server_vit.py
-│   ├── server.py
-
-├── requirements.txt       # 📦 Dependencies list for Python
-
-├── /deepfake-extension    # 👁️ THE EYES: Chrome Extension Folder
-│   ├── manifest.json      #    Config file (Permissions, Version)
-│   ├── popup.html         #    The User Interface (Buttons, Table)
-│   ├── popup.js           #    Logic (Talking to Python, Updating UI)
-│   ├── content.js         #    Script injected into YouTube to capture video
-│   └── icon.png           #    (Optional) Extension Icon
+│   └── server.py
 │
-└── README.md              #    This documentation file
+├── requirements.txt           # 📦 Dependencies list for Python
+│
+├── /deepfake-extension        # 👁️ THE EYES: Chrome Extension Folder
+│   ├── manifest.json          #    Config file (Permissions, Version)
+│   ├── popup.html             #    The User Interface (Buttons, Table)
+│   ├── popup.js               #    Logic (Talking to Python, Updating UI)
+│   ├── content.js             #    Script injected into YouTube to capture video
+│   └── icon.png               #    (Optional) Extension Icon
+│
+└── README.md                  #    This documentation file
 
-## 📦 **Installation**
+📦 Installation
+1. Backend Setup (The Brain)
+Clone the repository
 
-### 1. Backend Setup (The Brain)
+Bash
 
-# Clone the repository
 git clone [https://github.com/yourusername/innovatex-deepfake-guard.git](https://github.com/yourusername/innovatex-deepfake-guard.git)
 cd innovatex-deepfake-guard
+Install dependencies
 
-# Install dependencies
+Bash
+
 pip install -r requirements.txt
+Start the Server
 
-# Start the Server
-python server_master.py '''
+Bash
 
+python server_master.py
+2. Extension Installation
+Open Chrome and navigate to chrome://extensions.
+
+Enable "Developer mode" (toggle in the top-right corner).
+
+Click the "Load unpacked" button.
+
+Select the deepfake-extension folder inside the project directory.
+
+The Deepfake Guard icon (🕵️) should appear in your toolbar.
